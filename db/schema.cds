@@ -3,7 +3,7 @@ namespace usando;
 entity Orders {
     key ID    : Integer;
         count : Integer;
-        item  : String;
+        item  : localized String;
 }
 
 entity justTest {
